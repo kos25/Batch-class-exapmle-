@@ -1,3 +1,9 @@
+
+/* simple batch class Exapmle with used case described in red me file 
+   author - kaustubh 
+   Email - kaustubh221@gmail.com 
+   Last modified - 18 Jan 2020 */
+   
 public class handsonBatchTask implements Database.Batchable<sObject> , Database.Stateful {
     public List<String> AccId ; 
     public List<String> accEmail;   
